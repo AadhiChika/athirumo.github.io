@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Randholii Family Restaurant</title>
+
+<!--Student Name: Aadhithyan Thirumoorthy
+	Student ID: 214412184 -->
+
+<!-- JQuery Mobile Code -->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="themes/Randy.min.css" />
+	<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.css" />
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.js"></script>
+        
+    <link rel="stylesheet" href="css/menu.css" /> 
+    <script type="text/javascript" src="js/jquery.js"></script>
+    
+  <!-- ============================================================================================= -->
+
+	<link rel="stylesheet" type="text/css" href="css/imageplacement.css">
+ 
+ <!-- ================================================================================================ -->
+
+<link rel="shortcut icon" href="Logo/Randy-Logo.ico" > 
+		 
+</head>
+
+<body class="ui-mobile-viewport ui-overlay-c">
+
+<!-- Home Page -->
+
+<section id="page1" data-role="page">
+<header data-role="header"> 
+<div align="center">
+<img src="images/Randy-Logo.png" alt="Randholii Family Restaurant" width="234" height="91"/>&trade;
+</div>
+<nav data-role="navbar">
+
+<div id="NavigationBar">
+    <ul data-role="listview" data-inset="true">
+        <a href="#" class="ui-btn-active" data-icon="home" data-iconpos="right">HOME</a>
+        <a href="#page2">MENU</a>
+        <a href="#page3">FEEDBACK</a>
+        <a href="#page4">CONTACT US</a>
+        <a href="#page5">WHO AM I?</a>
+    </ul>
+
+  </div> 
+  </nav>
+</header>
+
+
+<img src="Logo/Randy-Logo.png"/>
+ 
+
+<!--
+<div style="width: 288px; height: 100px; position: absolute; left: 7px; top: 170px;">
+<img src="Logo/Randy-Logo.png" width="422" height="224" alt=""/></div>
+  -->
+  
+  
+  
+  <!-- Footer-->
+
+<div data-role="footer" data-position="fixed">
+  <h3>&copy; Aadhi Moorthy 2015</h3>
+</div>
+</section>
+
+<!-- ============================================================================================= -->
+
+<section id="page2" data-role="page">
+
+<header data-role="header"> 
+<div align="center">
+<img src="images/Logo.png" alt="Randholii Family Restaurant" width="234" height="91"/>&trade;
+</div>
+<nav data-role="navbar">
+
+<div id="NavigationBar">
+    <ul data-role="listview" data-inset="true">
+        <a href="#page1" data-icon="home" data-iconpos="right">HOME</a>
+        <a href="#page2" class="ui-btn-active">MENU</a>
+        <a href="#page3">FEEDBACK</a>
+        <a href="#page4">CONTACT US</a>
+        <a href="#page5">WHO AM I?</a>
+    </ul>
+
+  </div> 
+  
+  </nav>
+</header>
+
+<ul data-role="listview">
+ 	<li data-role="divider">Items<span class="ui-li-count">5</span></li>
+    <!-- ====================== Appetizers list ========================================== -->
+		 <li><a href="#">Appetizers</a><span class="ui-li-count">4</span>
+         	<ul>
+         		<li data-role="divider">Items<span class="ui-li-count">4</span></li>
+				
+				<h1>&nbsp; &nbsp; Click on the Image to View the Recipe </h1>
+                                
+                <div data-role="content"><h3>Prawn Vadai</h3>
+                <a href="#page1-1" data-rel="dialog">
+                <img src="Images/Appetizers/isso_vadai.jpg" alt=""/>
+                </a>
+            	</div>
+					
+				<div data-role="content"><h3>Spring Rolls</h3>
+                <a href="#page1-2" data-rel="dialog">
+                <img src="Images/Appetizers/thai-spring-rolls.jpg" alt=""/>
+                </a>
+            	</div>
+				
+				<div data-role="content"><h3>Tom Yum Soup</h3>
+                <a href="#page1-3" data-rel="dialog">
+                <img src="Images/Appetizers/Tom_yam_kung_maphrao_on_nam_khon.jpg" alt=""/>
+                </a>
+            	</div>
+				
+				<div data-role="content"><h3>Beef soup</h3>
+                <a href="#page1-4" data-rel="dialog">
+                <img src="Images/Appetizers/Kharcho_soup_of_beef_with_walnuts_and_rice.jpg" alt=""/>
+                </a>
+            	</div>
+								 
+         	</ul>
+     <!-- ====================== Main Dishes list ========================================== -->    
+         <li><a href="#">Main Dishes</a><span class="ui-li-count">3</span>
+         	<ul>
+         		<li data-role="divider">Items<span class="ui-li-count">3</span></li>
+				
+				<h1>&nbsp; &nbsp; Click on the Image to View the Recipe </h1>
+                                
+                <div data-role="content"><h3>Mixed Fried Rice</h3>
+                <a href="#page2-1" data-rel="dialog">
+                <img src="Images/Main Dishes/Mixed_Fried_Rice.jpg" alt=""/>
+                </a>
+            	</div>
+					
+				<div data-role="content"><h3>Seafood Fried Noodles</h3>
+                <a href="#page2-2" data-rel="dialog">
+                <img src="Images/Main Dishes/Seafood_Fried Noodle.jpg" alt=""/>
+                </a>
+            	</div>
+				
+				<div data-role="content"><h3>Chicken Biriyani</h3>
+                <a href="#page2-3" data-rel="dialog">
+                <img src="Images/Main Dishes/Chicken_Biryani.jpg" alt=""/>
+                </a>
+            	</div>
+				
+         	</ul>
+    <!-- ====================== Sides list ========================================== -->     
+         <li><a href="#">Sides</a><span class="ui-li-count">5</span>
+         	<ul>
+         		<li data-role="divider">Items<span class="ui-li-count">5</span></li>
+				
+				<h1>&nbsp; &nbsp; Click on the Image to View the Recipe </h1>
+                                
+                <div data-role="content"><h3>Sweet and Sour Chicken</h3>
+                <a href="#page3-1" data-rel="dialog">
+                <img src="Images/Side dishes/Sweet and Sour Chicken.jpg" alt=""/>
+                </a>
+            	</div>
+					
+				<div data-role="content"><h3>Devilled Chicken</h3>
+                <a href="#page3-2" data-rel="dialog">
+                <img src="Images/Side dishes/Devilled Chicken.jpg" alt=""/>
+                </a>
+            	</div>
+				
+				<div data-role="content"><h3>Pepper Style Beef</h3>
+                <a href="#page3-3" data-rel="dialog">
+                <img src="Images/Side dishes/pepper beef.jpg" alt=""/>
+                </a>
+            	</div>
+				
+				<div data-role="content"><h3>Hot Butter Calamari</h3>
+                <a href="#page3-4" data-rel="dialog">
+                <img src="Images/Side dishes/Hot Butter Calamari.jpg" alt=""/>
+                </a>
+            	</div>
+					
+				<div data-role="content"><h3>Batter Fried Prawns</h3>
+                <a href="#page3-5" data-rel="dialog">
+                <img src="Images/Side dishes/Batter fried Prawns.jpg" alt=""/>
+                </a>
+            	</div>
+				
+         	</ul>
+    <!-- ====================== Beverages list ========================================== -->     
+         <li><a href="#">Beverages</a><span class="ui-li-count">4</span>
+         	<ul>
+         		<li data-role="divider">Items<span class="ui-li-count">4</span></li>
+				
+				<h1>&nbsp; &nbsp; Click on the Image to View the Recipe </h1>
+                                
+                <div data-role="content"><h3>Lioon Strong Beer</h3>
+                <a href="#page4-1" data-rel="dialog">
+                <img src="Images/Drinks/strong.jpg" alt=""/>
+                </a>
+            	</div>
+					
+				<div data-role="content"><h3>Lioon Stout</h3>
+                <a href="#page4-2" data-rel="dialog">
+                <img src="Images/Drinks/stout2.jpg" alt=""/>
+                </a>
+            	</div>
+				
+				<div data-role="content"><h3>Old Keg Whiskey</h3>
+                <a href="#page4-3" data-rel="dialog">
+                <img src="Images/Drinks/old_keg_copy.jpg" alt=""/>
+                </a>
+            	</div>
+				
+				<div data-role="content"><h3>Red Bolt Drinks</h3>
+                <a href="#page4-4" data-rel="dialog">
+                <img src="Images/Drinks/elephanthouse.jpg" alt=""/>
+                </a>
+            	</div>		
+           	             </ul>
+    <!-- ====================== What's New list ========================================== -->     
+         <li><a href="#">What's new?</a><span class="ui-li-count">2</span>
+ 			<ul>
+ 				<li data-role="divider">Items<span class="ui-li-count">2</span></li>
+				
+				<h1>&nbsp; &nbsp; Click on the Image to View the Recipe </h1>
+                                
+                <div data-role="content"><h3>Honey Satay Chicken on Skewers</h3>
+                <a href="#page5-1" data-rel="dialog">
+                <img src="Images/Specials/Chinese_chicken_skewers_1.jpg" alt=""/>
+                </a>
+            	</div>
+					
+				<div data-role="content"><h3>Garoupa in Hot Chilli Sauce</h3>
+                <a href="#page5-2" data-rel="dialog">
+                <img src="Images/Specials/Garoupa in Hot Chilli sauce.jpg" alt=""/>
+                </a>
+            	</div>
+				
+           	             </ul>
+				
+				                 <div class="content" data-role="content">
+                </div>
+			</ul> </li></li></li></li></li></ul>
+
+  
+<div data-role="footer" data-position="fixed">
+<h3>&copy; Aadhi Moorthy 2015</h3>
+</div>
+</section>
+
+<!-- ============================================================================================= -->
+
+<section id="page3" data-role="page">
+
+<header data-role="header"> 
+<div align="center">
+<img src="images/Logo.png" alt="Randholii Family Restaurant" width="234" height="91"/>&trade;
+</div>
+<nav data-role="navbar">
+
+<div id="NavigationBar">
+    <ul data-role="listview" data-inset="true">
+        <a href="#page1" data-icon="home" data-iconpos="right">HOME</a>
+        <a href="#page2">MENU</a>
+        <a href="#page3" class="ui-btn-active">FEEDBACK</a>
+        <a href="#page4">CONTACT US</a>
+        <a href="#page5">WHO AM I?</a>
+    </ul>
+
+  </div> 
+  </nav>
+</header>
+
+<div data-role="fieldcontain" class="ui-hide-label"><h4>Customer Name:</h4>
+	<label for="customername">Customer Name:</label>
+	<input type="text" name="customername" id="customername" value="" placeholder="customername"/>
+</div>
+
+<div data-role="fieldcontain" class="ui-hide-label"><h4>Contact Information:</h4>
+	<label for="contactinfo">Contact Information:</label>
+	<input type="text" name="contactinfo" id="contactinfo" value="" placeholder="contactinfo"/>
+</div>
+
+<label for="textarea-a">Text Area:</label>
+<textarea name="textarea" id="textarea-a">
+Dined with us? Give us your comments. Lets make it better the next time you join us!
+</textarea>
+
+<div data-role="controlgroup" data-type="horizontal" align="center">
+<a href="#page69" data-role="button" data-rel="dialog">Submit</a>
+</div>
+
+    </div>
+
+
+<div data-role="footer" data-position="fixed">
+<h3>&copy; Aadhi Moorthy 2015</h3>
+</div>
+</section>
+
+<!-- ============================================================================================= -->
+
+<section id="page4" data-role="page">
+
+<header data-role="header"> 
+<div align="center">
+<img src="images/Logo.png" alt="Randholii Family Restaurant" width="234" height="91"/>&trade;
+</div>
+<nav data-role="navbar">
+
+<div id="NavigationBar">
+    <ul data-role="listview" data-inset="true">
+        <a href="#page1" data-icon="home" data-iconpos="right">HOME</a>
+        <a href="#page2">MENU</a>
+        <a href="#page3">FEEDBACK</a>
+        <a href="#page4" class="ui-btn-active">CONTACT US</a>
+        <a href="#page5">WHO AM I?</a>
+    </ul>
+
+  </div> 
+  </nav>
+</header>
+
+<img src="Screenshots/Contact Us.png">
+
+<div data-role="footer" data-position="fixed">
+<h3>&copy; Aadhi Moorthy 2015</h3>
+</div>
+</section>
+
+<!-- ============================================================================================= -->
+
+<section id="page5" data-role="page">
+
+<header data-role="header"> 
+<div align="center">
+<img src="images/Logo.png" alt="Randholii Family Restaurant" width="234" height="91"/>&trade;
+</div>
+<nav data-role="navbar">
+
+<div id="NavigationBar">
+    <ul data-role="listview" data-inset="true">
+        <a href="#page1" data-icon="home" data-iconpos="right">HOME</a>
+        <a href="#page2">MENU</a>
+        <a href="#page3">FEEDBACK</a>
+        <a href="#page4">CONTACT US</a>
+        <a href="#page5" class="ui-btn-active">WHO AM I?</a>
+    </ul>
+
+  </div> 
+  </nav>
+</header>
+
+<img src="Screenshots/About Me.png">
+
+<div data-role="footer" data-position="fixed">
+<h3>&copy; Aadhi Moorthy 2015</h3>
+</div>
+</section>
+
+<!-- ============================================================================================= -->
+
+<!-- =====================================================Appetizers ingredients=============================================== -->
+<!-- Prawn Vadai Pop -->
+<section id="page1-1" data-role="page">
+<header data-role="header">
+<h1><b><u>Prawn Vadai</u></b></h1>
+<p>
+<h3>Red Lentils</h3>
+<h3>Prawns</h3>
+<h3>Onions</h3>
+<h3>Green Chilli</h3>
+<h3>Ginger</h3>
+<h3>Curry Leaves</h3>
+<h3>Corriander leaves</h3>
+<h3>Cumin seeds</h3>
+<h3>Fennel Seeds</h3>
+<h3>Salt</h3>
+<h3>Oil</h3>
+</header>
+</section>
+
+<!-- Spring rolls Pop -->
+<section id="page1-2" data-role="page">
+<header data-role="header">
+<h1><b><u>Spring Rolls</u></b></h1>
+<p>
+<h3>Soy sauce</h3>
+<h3>Rice Wine</h3>
+<h3>Wrappers</h3>
+<h3>Selection of meat</h3>
+<h3>Ginger garlic paste</h3>
+<h3>Vegetables</h3>
+<h3>Oyster sauce</h3>
+<h3>Corn starch</h3>
+<h3>Oil</h3>
+<h3>Black pepper</h3>
+</header>
+</section>
+
+<!-- Tom Yup Soup Pop -->
+<section id="page1-3" data-role="page">
+<header data-role="header">
+<h1><b><u>Tom Yum Soup</u></b></h1>
+<p>
+<h3>Prawns</h3>
+<h3>Mushrooms</h3>
+<h3>Lemon Grass</h3>
+<h3>Lime Leaves</h3>
+<h3>Chillies/Galangal</h3>
+<h3>Lime Juice</h3>
+<h3>Salt, Sugar and Pepper</h3>
+<h3>Tom Yum paste</h3>
+</header>
+</section>
+
+
+<!-- Beef Soup Pop -->
+<section id="page1-4" data-role="page">
+<header data-role="header">
+<h1><b><u>Beef Soup</u></b></h1>
+<p>
+<h3>Beef stew meat</h3>
+<h3>Vegetable Oil</h3>
+<h3>Onions/Celery/Carrots/Potatoes</h3>
+<h3>Garlic Clove</h3>
+<h3>Red wine</h3>
+<h3>Beef broth</h3>
+<h3>Salt and Pepper</h3>
+<h3>Spices</h3>
+</header>
+</section>
+<!-- =====================================================Appetizers ingredients=============================================== -->
+
+<!-- =====================================================Main Dishes ingredients=============================================== -->
+
+<!-- Mixed Fried Rice Pop -->
+<section id="page2-1" data-role="page">
+<header data-role="header">
+<h1><b><u>Mixed Fried Rice</u></b></h1>
+<p>
+<h3>Rice</h3>
+<h3>Selection of Meat</h3>
+<h3>Steamed vegetables</h3>
+<h3>Chicken Broth</h3>
+<h3>Butter</h3>
+</header>
+</section>
+
+<!-- Seafood Fried Noodles Pop -->
+<section id="page2-2" data-role="page">
+<header data-role="header">
+<h1><b><u>Seafood Fried Noodles</u></b></h1>
+<p>
+<h3>Chinese Noodles</h3>
+<h3>Prawns</h3>
+<h3>Calamari</h3>
+<h3>Steamed Vegetables</h3>
+<h3>Chicken Broth</h3>
+<h3>Ginger and Garlic</h3>
+<h3>Corn Starch</h3>
+<h3>Oyster Sauce</h3>
+<h3>Soy Sauce</h3>
+<h3>Salt</h3>
+<h3>Pepper</h3>
+<h4>*Sri Lankas No.1 Choice whisky brand.</h4>
+</header>
+</section>
+
+<!-- Chicken Biriyani Pop -->
+<section id="page2-3" data-role="page">
+<header data-role="header">
+<h1><b><u>Chicken Biriyani</u></b></h1>
+<p>
+<h3>Rice</h3>
+<h3>Chicken</h3>
+<h3>Onions</h3>
+<h3>Ginger garlic paste</h3>
+<h3>Red Chilli paste</h3>
+<h3>Salt</h3>
+<h3>Yogurt</h3>
+<h3>Garam Masala</h3>
+<h3>Spices</h3>
+<h3>Mint Leaves</h3>
+<h3>Corriander</h3>
+<h3>Lemon Juice</h3>
+<h3>Green Chillies</h3>
+<h3>Butter</h3>
+<h3>Chicken Broth</h3>
+<h3>Saffron</h3>
+<h3>Ghee</h3>
+</header>
+</section>
+
+<!-- =====================================================Main Dishes ingredients=============================================== -->
+
+<!-- =====================================================Side Dishes ingredients=============================================== -->
+
+<!-- Sweet and Sour Chicken Pop -->
+<section id="page3-1" data-role="page">
+<header data-role="header">
+<h1><b><u>Sweet and Sour Chicken</u></b></h1>
+<p>
+<h3>Chunks of Chicken</h3>
+<h3>Canola Oil</h3>
+<h3>Ginger and Garlic paste</h3>
+<h3>Oyster sauce</h3>
+<h3>Sesame Oil</h3>
+<h3>Onions and Tomatoes</h3>
+<h3>Corn Starch</h3>
+<h3>Brown Sugar </h3>
+<h3>Chicken Broth</h3>
+<h3>Sake</h3>
+<h3>Lemons</h3>
+</header>
+</section>
+
+<!-- Devilled Chicken Pop -->
+<section id="page3-2" data-role="page">
+<header data-role="header">
+<h1><b><u>Devilled Chicken</u></b></h1>
+<p>
+<h3>Chunks of Chicken</h3>
+<h3>Hot Red Chilli powder</h3>
+<h3>Hot Sweet Smoked Paprika</h3>
+<h3>Turmeric</h3>
+<h3>Ground Black Pepper</h3>
+<h3>Lime juice</h3>
+<h3>Sunflower Oil</h3>
+<h3>Ginger</h3>
+<h3>Red Chilli</h3>
+<h3>Garlic Clove</h3>
+<h3>Onions</h3>
+<h3>Groundnuts</h3>
+<h3>Sugar</h3>
+<h3>Tomato ketchup</h3>
+<h3>Malt Vinegar</h3>
+<h3>Chilli and Garlicrlic Sauce</h3>
+<h3>Hot Chilli Sauce</h3>
+<h3>Jalapenos</h3>
+<h3>Salt</h3>
+</header>
+</section>
+
+<!-- Pepper Style Beef Pop -->
+<section id="page3-3" data-role="page">
+<header data-role="header">
+<h1><b><u>Pepper Style Beef</u></b></h1>
+<p>
+<h3>rib-eye steak</h3>
+<h3>Hungarian Paprikarika</h3>
+<h3>Olive Oil</h3>
+<h3>Bell pepper</h3>
+<h3>Garlic Clove</h3>
+<h3>Beef Broth</h3>
+<h3>Tomato Paste</h3>
+<h3>Balsamic Vinegar</h3>
+<h3>Bistro Gravy</h3>
+</header>
+</section>
+
+<!-- Hot Butter Calamari Pop -->
+<section id="page3-4" data-role="page">
+<header data-role="header">
+<h1><b><u>Hot Butter Calamari</u></b></h1>
+<p>
+<h3>Calamari</h3>
+<h3>Milk</h3>
+<h3>Corn Flour</h3>
+<h3>Eggs</h3>
+<h3>Maida</h3>
+<h3>Butter</h3>
+<h3>Semolina</h3>
+<h3>Garlic</h3>
+<h3>Green Chillies</h3>
+<h3>Cashewnuts Fried</h3>
+<h3>Chilli paste</h3>
+<h3>Sugar</h3>
+<h3>Salt</h3>
+</header>
+</section>
+
+
+<!-- Batter Fried Prawns Pop -->
+<section id="page3-5" data-role="page">
+<header data-role="header">
+<h1><b><u>Batter Fried Prawns</u></b></h1>
+<p>
+<h3>Prawns</h3>
+<h3>Eggs</h3>
+<h3>Corn Flour</h3>
+<h3>Milk</h3>
+<h3>Seasoning salt</h3>
+<h3>salt</h3>
+<h3>Butter</h3>
+</header>
+</section>
+
+<!-- =====================================================Side Dishes ingredients=============================================== -->
+
+
+<!-- =====================================================Beverages ingredients=============================================== -->
+
+<!-- Lioon Strong Beer Pop -->
+<section id="page4-1" data-role="page">
+<header data-role="header">
+<h1><b><u>Lioon Strong Beer</u></b></h1>
+<p>
+<h3>Pale Ale Malt</h3>
+<h3>hop pellets</h3>
+<h3>Water/cool water</h3>
+<h3>Ale Yeast</h3>
+<h3>Corn Syrup</h3>
+<h3>Iodine solution</h3>
+<h4>*8.8% ABV pale lager</h4>
+</header>
+</section>
+
+<!-- Lioon Stout Pop -->
+<section id="page4-2" data-role="page">
+<header data-role="header">
+<h1><b><u>Lion Stout</u></b></h1>
+<p>
+<h3>Pale Malt</h3>
+<h3>Roasted Barley</h3>
+<h3>Chocolate Malt</h3>
+<h3>Baking soda</h3>
+<h3>Irish Moss</h3>
+<h3>Perle Hops</h3>
+<h3>Yeast/White Labs</h3>
+<h3>Corn Sugar</h3>
+<h4>*8.8% ABV stout</h4>
+</header>
+</section>
+
+<!-- Old Keg Whiskey Pop -->
+<section id="page4-3" data-role="page">
+<header data-role="header">
+<h1><b><u>Old Keg Whiskey</u></b></h1>
+<p>
+<h3>Barley</h3>
+<h3>Rye</h3>
+<h3>Malt</h3>
+<h3>Yeast</h3>
+<h3>Water</h3>
+<h4>*Sri Lankas No.1 Choice whisky brand.</h4>
+</header>
+</section>
+
+
+<!-- Red Bolt Drinks Pop -->
+<section id="page4-4" data-role="page">
+<header data-role="header">
+<h1><b><u>Red Bolt Drinks</u></b></h1>
+<p>
+<h3>Carbonated Water</h3>
+<h3>high fructose corn syrup</h3>
+<h3>Sodium Benzonate</h3>
+<h3>Natural and Artificial Flavours</h3>
+<h3>Permitter Colours</h3>
+<h3>Citric acid</h3>
+<h3>Caffeine</h3>
+<h4>*Awarded best softdrinks for 5 consecutive years!</h4>
+</header>
+</section>
+
+
+<!-- ==============================================Done with Beverages=============================================== -->
+
+
+<!-- =====================================================What's New? ingredients=============================================== -->
+
+<!-- Honey Satay Chicken on Skewers Pop -->
+<section id="page5-1" data-role="page">
+<header data-role="header">
+<h1><b><u>Honey Satay Chicken on Skewers</u></b></h1>
+<p>
+<h3>Chunks of boneless Chicken</h3>
+<h3>Honey</h3>
+<h3>Teriyaki Sauce</h3>
+<h3>Chunky Peanut Butter</h3>
+<h3>Crushed red pepper flakes</h3>
+<h3>Sesame seeds</h3>
+<h3>Wooden Skewers</h3>
+</header>
+</section>
+
+<!-- Garoupa in Hot Chilli Sauce Pop -->
+<section id="page5-2" data-role="page">
+<header data-role="header">
+<h1><b><u>Garoupa in Hot Chilli Sauce</u></b></h1>
+<p>
+<h3>Red/White Garoupa</h3>
+<h3>Salt</h3>
+<h3>Garlic Cloves</h3>
+<h3>Small Thai Chillies</h3>
+<h3>Tamarind paste</h3>
+<h3>Palm Sugar</h3>
+<h3>Fish Sauce</h3>
+<h3>Coriander</h3>
+<h3>Chef's Special Sauce</h3>
+</header>
+</section>
+
+<!-- =====================================================Done with What's New=============================================== -->
+
+
+
+
+
+</body>
+</html>
